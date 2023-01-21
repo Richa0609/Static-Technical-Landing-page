@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../technicalLanding/images/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Catamaran;
+
+}
+
+.center{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    background-color: black;
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+   background-color: whitesmoke;
+   color: black;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: whitesmoke;
+    color: black; 
+} 
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+/* .navbar-default .navbar-nav>li>a:visited{
+    color: white;
+    background-color: chocolate;
+} */
+#login{
+    background-color: whitesmoke;
+    padding: 14px 14px 0pc;
+
+}
+
+
+
+
